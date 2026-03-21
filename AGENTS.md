@@ -22,7 +22,6 @@ For example: `darfx cli --bar baz`
 All commands and subcommand have a help message that can be invoked with `--help`.
 
 
-
 ## Project Stack
 
 - **Language**: Python 3.12+ (Strictly required)
@@ -70,6 +69,7 @@ This project uses `hatch` for environment management, but `uv` is preferred for 
 - Documentation is located in the `docs/source` directory.
 - Main documentation is in `.rst` or `.md` (via MyST).
 - Keep `README.md` up to date with core installation and usage instructions.
+- Keep a dedicated `IMPLEMENTATION.md` document up to date that describes the package / code technical implementation.
 
 ## Version Management
 

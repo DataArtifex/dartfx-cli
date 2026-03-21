@@ -62,6 +62,8 @@ pip install -e .
 
 ## Development
 
+For detailed technical details, see the **[IMPLEMENTATION.md](./IMPLEMENTATION.md)**.
+
 ### Version Management
 Versions are managed dynamically in `src/dartfx/cli/__about__.py`. You can use `hatch version` to view or bump the version.
 
@@ -82,7 +84,13 @@ hatch run docs:build
  
 ## Usage
 
-...
+```bash
+# Show available commands
+dartfx --help
+
+# Start interactive subshell
+dartfx shell
+```
 
 ## Roadmap
 
